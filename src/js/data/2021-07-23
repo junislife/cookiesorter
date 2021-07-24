@@ -5,8 +5,8 @@ dataSet[dataSetVersion].options = [
 {
   name: "Sort by game",
   key: "game",
-  tooltip?: string, // optional
-  checked?: boolean, // optional
+  tooltip: "Sort by game"
+  checked: false,
   sub: [
     { name: "Line", key: "line" },
     { name: "OvenBreak", key: "OB" },
@@ -18,8 +18,8 @@ dataSet[dataSetVersion].options = [
 {
   name: "Sort by rarity",
   key: "rarity",
-  tooltip?: "(OvenBreak/Kingdom)"
-  checked?: boolean, // optional
+  tooltip: "(OvenBreak/Kingdom)"
+  checked: false,
   sub: [
     { name: "Common", key: "common" },
     { name: "Rare", key: "rare" },
@@ -32,20 +32,20 @@ dataSet[dataSetVersion].options = [
   {
   name: "NPCs",
   key: "cookie",
-  tooltip?: "include NPCs"
-  checked?: boolean, // optional
+  tooltip: "include NPCs"
+  checked: true,
 },
 {
   name: "Cookies only",
   key: "cookie",
-  tooltip?: "only cookie characters"
-  checked?: boolean, // optional
+  tooltip: "only cookie characters"
+  checked: true,
 },
 {
   name: "Pets",
   key: "pet",
-  tooltip?: "include pets"
-  checked?: boolean, // optional
+  tooltip: "include pets"
+  checked: false,
 }
 ];
 
@@ -72,7 +72,97 @@ dataSet[dataSetVersion].characterData = [
   name: "Adventurer Cookie",
   img: "5dKPiBQ.png",
   opts: {
+    game: ["line", "OB", "king"],
+    rarity: ["epic"],
+    cookie: true
+  }
+}
+{
+  name: "Alchemist Cookie",
+  img: "b16DqIz.png",
+  opts: {
     game: ["line", "OB", "CW", "king"],
+    rarity: ["epic"],
+    cookie: true
+  }
+},
+{
+  name: "Alchemist Cookie",
+  img: "b16DqIz.png",
+  opts: {
+    game: ["line", "OB", "CW", "king"],
+    rarity: ["epic"],
+    cookie: true
+  }
+},
+{
+  name: "Alchemist Cookie",
+  img: "b16DqIz.png",
+  opts: {
+    game: ["line", "OB", "CW", "king"],
+    rarity: ["epic"],
+    cookie: true
+  }
+},
+{
+  name: "Alchemist Cookie",
+  img: "b16DqIz.png",
+  opts: {
+    game: ["line", "OB", "king"],
+    rarity: ["epic"],
+    cookie: true
+  }
+},
+{
+  name: "Almond Cookie",
+  img: "3Iub7Ht.png",
+  opts: {
+    game: ["OB", "king"],
+    rarity: ["epic"],
+    cookie: true
+  }
+},
+{
+  name: "Aloe Cookie",
+  img: "9mLdOZV.png",
+  opts: {
+    game: ["OB"],
+    rarity: ["epic"],
+    cookie: true
+  }
+},
+{
+  name: "Ananas Dragon Cookie",
+  img: "YX4DPrF.png",
+  opts: {
+    game: ["OB"],
+    rarity: ["legend"],
+    cookie: true
+  }
+},
+{
+  name: "Angel Cookie",
+  img: "ttpEZO8.png",
+  opts: {
+    game: ["line", "OB", "CW", "king"],
+    rarity: ["rare"],
+    cookie: true
+  }
+},
+{
+  name: "Apple Cookie",
+  img: "EJ5zUbj.png",
+  opts: {
+    game: ["line", "OB", "CW"],
+    rarity: ["epic"],
+    cookie: true
+  }
+},
+{
+  name: "Avocado Cookie",
+  img: "ISuE7Dg.png",
+  opts: {
+    game: ["OB", "CW", "king"],
     rarity: ["epic"],
     cookie: true
   }
