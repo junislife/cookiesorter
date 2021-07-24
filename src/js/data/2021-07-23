@@ -67,4 +67,13 @@ dataSet[dataSetVersion].characterData = [
     rarity: ["common"],
     cookie: true
   }
+},
+{
+  name: "Adventurer Cookie",
+  img: "5dKPiBQ.png",
+  opts: {
+    game: ["line", "OB", "CW", "king"],
+    rarity: ["epic"],
+    cookie: true
+  }
 ];
