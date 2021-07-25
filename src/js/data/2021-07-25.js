@@ -19,6 +19,7 @@ dataSet[dataSetVersion].options = [
     name: "Exclude Special cookies",
     key: "special",
     tooltip: "Exclude Special cookies (OvenBreak)."
+  }
 ];
 
 dataSet[dataSetVersion].characterData = [
@@ -968,4 +969,4 @@ dataSet[dataSetVersion].characterData = [
       game: ["line", "ob", "pw"]
     }
   }
-];
+]
