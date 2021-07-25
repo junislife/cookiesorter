@@ -16,24 +16,9 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Exclude NPCs",
-    key: "npc",
-    tooltip: "Exclude NPCs."
-  },
-  {
     name: "Exclude Special cookies",
     key: "special",
     tooltip: "Exclude Special cookies (OvenBreak)."
-  },
-  {
-    name: "Cookies only",
-    key: "noncookie",
-    tooltip: "Include cookie characters only.",
-  },
-  {
-    name: "No Pets",
-    key: "pet",
-    tooltip: "Exclude pets.",
 ];
 
 dataSet[dataSetVersion].characterData = [
