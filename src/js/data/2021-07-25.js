@@ -419,7 +419,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ice Juggler Cookie",
-    img: "ydfp6sY.png",
+    img: "sO0EOPa.png",
     opts: {
       game: ["ob"]
     }
@@ -804,7 +804,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shining Glitter Cookie",
-    img: "ZwRTOZL.png",
+    img: "mPuzQvy.png",
     opts: {
       game: ["ob"]
     }
@@ -881,7 +881,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Strawberry Cookie",
-    img: "dYxrOaL.png",
+    img: "TFuPPJu.png",
     opts: {
       game: ["line", "ob", "cw", "pw", "kd"]
     }
@@ -895,7 +895,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Timekeeper Cookie",
-    img: "jMpmxxI.png",
+    img: "WIWe5pp.png",
     opts: {
       game: ["ob"]
     }
