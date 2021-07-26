@@ -5,7 +5,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Sort by game",
     key: "game",
-    tooltip: "Sort by game.",
+    tooltip: "Sort by game",
     checked: false,
     sub: [
       { name: "Line", key: "line" },
@@ -16,9 +16,19 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Exclude Special cookies",
+    name: "Remove Special cookies",
     key: "special",
-    tooltip: "Exclude Special cookies (OvenBreak)."
+    tooltip: "Remove Special cookies (OvenBreak)"
+  },
+  {
+    name: "Remove NPCs",
+    key: "npc",
+    tooltip: "Remove NPCs"
+  },
+  {
+    name: "Remove Dozer and ch17",
+    key: "dcp",
+    tooltip: "Remove Dozer and ch17 (Banana Peel Cookie)"
   }
 ];
 
@@ -967,6 +977,322 @@ dataSet[dataSetVersion].characterData = [
     img: "1Dj4jLA.png",
     opts: {
       game: ["line", "ob", "pw"]
+    }
+  },
+  {
+    name: "Artichoke Cookie",
+    img: "sJfo7Ls.png",
+    opts: {
+      game: ["ob", "pw"]
+    }
+  },
+  {
+    name: "Bacon Cookie",
+    img: "5QXddYo.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Choco Banana Cookie",
+    img: "FbdTThi.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Choco Cup Cookie",
+    img: "O5S9y05.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Coconut Cream Cookie",
+    img: "9Eu6fNN.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Coffee Berry Cookie",
+    img: "9Eu6fNN.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Flamenco Partner Cookies",
+    img: "ZZ0iWtH.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Jelly Serpent Cookie",
+    img: "HY1HnE4.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Piñata Cookie",
+    img: "P8J8qoh.png",
+    opts: {
+      game: ["pw"]
+    }
+  },
+  {
+    name: "Plain Yogurt Cookie",
+    img: "nuKrONZ.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Pudding Cookie Siblings",
+    img: "RPjCyf0.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Pumpkin Cookie",
+    img: "qsJQKyE.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Red Cheerleader Cookie",
+    img: "UYIaaTM.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Spearmint Cookie",
+    img: "6xxTTDI.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Black Raisin Cookie",
+    img: "xR14e3I.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Buttercream Choco Cookie",
+    img: "b1Y5iwm.png",
+    opts: {
+      game: ["line"]
+    }
+  },
+  {
+    name: "Cloud Cookie",
+    img: "eSOpPtg.png",
+    opts: {
+      game: ["line", "cw"]
+    }
+  },
+  {
+    name: "Clover Cookie",
+    img: "J3kLYjx.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Cream Cookie",
+    img: "jnWib4g.png",
+    opts: {
+      game: ["line"]
+    }
+  },
+  {
+    name: "Custard Cookie III",
+    img: "RHHDXhh.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Dark Cacao Cookie",
+    img: "RIvRHv7.png",
+    opts: {
+      game: ["kd"],
+      npc: true
+    }
+  },
+  {
+    name: "Energy Drink Cookie",
+    img: "MZp5gAb.png",
+    opts: {
+      game: ["cw"]
+    }
+  },
+  {
+    name: "Espresso Cookie",
+    img: "1O2augE.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Golden Cheese Cookie",
+    img: "CJrV50g.png",
+    opts: {
+      game: ["kd"],
+      npc: true
+    }
+  },
+  {
+    name: "Hollyberry Cookie",
+    img: "I7gfzxn.png",
+    opts: {
+      game: ["kd"],
+      npc: true
+    }
+  },
+  {
+    name: "Latte Cookie",
+    img: "zpTRFcY.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Madeleine Cookie",
+    img: "jTlehjU.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Pastry Cookie",
+    img: "69GUeoh.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Poison Mushroom Cookie",
+    img: "NpNAZre.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Pure Vanilla Cookie",
+    img: "huicwAB.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Rebel Cookie",
+    img: "Bn7br6p.png",
+    opts: {
+      game: ["line"]
+    }
+  },
+  {
+    name: "Red Velvet Cookie",
+    img: "bp1q270.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Rye Cookie",
+    img: "gcQmGCB.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "Special Force Cookie",
+    img: "efQGmoX.png",
+    opts: {
+      game: ["line"]
+    }
+  },
+  {
+    name: "Strawberry Crepe Cookie",
+    img: "XDhZKzH.png",
+    opts: {
+      game: ["kd"]
+    }
+  },
+  {
+    name: "White Lily Cookie",
+    img: "JimHO7K.png",
+    opts: {
+      game: ["kd"],
+      npc: true
+    }
+  },
+  {
+    name: "Priestesses of the Stars",
+    img: "7ExYPQH.png",
+    opts: {
+      game: ["ob"],
+      npc: true
+    }
+  },
+  {
+    name: "Dozer",
+    img: "aXKgFdJ.png",
+    opts: {
+      game: ["line"]
+      dcp: true
+    }
+  },
+  {
+    name: "ch17 (Banana Peel Cookie)",
+    img: "Q24OyLs.png",
+    opts: {
+      game: ["line"]
+      dcp: true
+    }
+  },
+  {
+    name: "Police Cookie",
+    img: "wNEn7ky.png",
+    opts: {
+      game: ["line"],
+      npc: true
+    }
+  },
+  {
+    name: "Priestess Cookie A",
+    img: "0wk0NOy.png",
+    opts: {
+      game: ["kd"],
+      npc: true
+    }
+  },
+  {
+    name: "Priestess Cookie B",
+    img: "qAinknV.png",
+    opts: {
+      game: ["kd"],
+      npc: true
     }
   }
 ];
