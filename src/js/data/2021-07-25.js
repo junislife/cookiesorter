@@ -1259,7 +1259,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Dozer",
     img: "aXKgFdJ.png",
     opts: {
-      game: ["line"]
+      game: ["line"],
       dcp: true
     }
   },
@@ -1267,7 +1267,7 @@ dataSet[dataSetVersion].characterData = [
     name: "ch17 (Banana Peel Cookie)",
     img: "Q24OyLs.png",
     opts: {
-      game: ["line"]
+      game: ["line"],
       dcp: true
     }
   },
