@@ -5,7 +5,6 @@ dataSet[dataSetVersion].options = [
   {
     name: "Sort by game",
     key: "game",
-    tooltip: "Sort by game",
     checked: false,
     sub: [
       { name: "Line", key: "line" },
@@ -23,7 +22,6 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove NPCs",
     key: "npc",
-    tooltip: "Remove NPCs"
   },
   {
     name: "Remove Dozer and ch17",
