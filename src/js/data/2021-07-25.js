@@ -11,7 +11,7 @@ dataSet[dataSetVersion].options = [
       { name: "OvenBreak", key: "ob" },
       { name: "Cookie Wars", key: "cw" },
       { name: "Puzzle World", key: "pw" },
-      { name: "Kingdom", key: "kd" },
+      { name: "Kingdom", key: "kd" }
     ]
   },
   {
@@ -21,7 +21,7 @@ dataSet[dataSetVersion].options = [
   },
   {
     name: "Remove NPCs",
-    key: "npc",
+    key: "npc"
   },
   {
     name: "Remove Dozer and ch17",
