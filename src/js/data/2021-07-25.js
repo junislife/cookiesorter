@@ -188,7 +188,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "ch17 (Banana Peel Cookie)",
-    img: "",
+    img: "AhnfUSE.png",
     opts: {
       game: ["line"],
       dcp: true
@@ -490,7 +490,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Flamenco Partner Cookies",
-    img: "",
+    img: "Fxl5k6E.png",
     opts: {
       game: ["ob"],
       npc: true
